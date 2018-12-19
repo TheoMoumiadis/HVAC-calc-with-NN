@@ -9,10 +9,8 @@ from keras import layers
 from keras.utils import np_utils
 
 
-# Load of buildings energy data from file
-dataset = pd.read_csv('/Users/theodosismoumiadis/Documents/ENB2012_data.csv')
-# A command that returns all data rows in random order
-# dataset = dataset.sample(frac=1)
+# Load of buildings energy data from file. Save ENB2012_data.csv file into local drive and add below the path.
+dataset = pd.read_csv('/ ... /ENB2012_data.csv')
 
 print(dataset)
 
