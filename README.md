@@ -13,9 +13,8 @@ How to create a tool (trained AI model), which can predict the cooling and heati
 Dataset used:
 The dataset used was an existing collection from UCI Machine Learning repository [1] under the ownership and license of Athanasios Tsanas and Angeliki Xifara [2]. 
 
-
-
-
+Model:
+The problem was modeled through a 3-layer neural network algorithm including 2 hidden layers, 64 nodes per hidden layer and 0.01 as the regularization parameter. The input layer contains 8 normalized input parameters, and the output layer 1 variable
 
 
 References
